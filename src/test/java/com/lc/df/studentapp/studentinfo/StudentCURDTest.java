@@ -2,14 +2,11 @@ package com.lc.df.studentapp.studentinfo;
 
 import com.lc.df.studentapp.model.StudentPojo;
 import com.lc.df.studentapp.testbase.TestBase;
-import io.restassured.http.ContentType;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Title;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.MethodSorters;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,7 +22,6 @@ import static org.junit.Assert.assertThat;
  */
 
 @RunWith(SerenityRunner.class)
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class StudentCURDTest extends TestBase {
 
     // variable created with random method
